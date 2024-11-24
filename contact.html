@@ -146,8 +146,8 @@
 							<input type="tel" id="phone" name="phone" class="form-control" placeholder="Your phone number" required>
 						  </div>
 						  <div class="col-md-6">
-							<label for="alt-phone">Alternative Phone Number (Optional)</label>
-							<input type="tel" id="alt-phone" name="alt-phone" class="form-control" placeholder="Alternative phone number">
+							<label for="alt-phone">Alternative Phone Number</label>
+							<input type="tel" id="alt-phone" name="alt-phone" class="form-control" placeholder="Alternative phone number(optional)">
 						  </div>
 						</div>
 					  
@@ -157,9 +157,12 @@
 							<input type="date" id="marriage-date" name="marriage-date" class="form-control">
 						  </div>
 						</div>
-						<div class="col-md-12">
-							<label for="pincode">Pincode</label>
-							<input
+					
+						
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="pincode">Pincode</label>
+								<input
 								type="text"
 								id="pincode"
 								name="pincode"
@@ -168,7 +171,8 @@
 								required
 								onblur="fetchDistrict()"
 							/>
-						</div>
+							</div>
+						  </div>
 						<div class="row form-group">
 							<div class="col-md-12">
 							  <label for="place">Place</label>
